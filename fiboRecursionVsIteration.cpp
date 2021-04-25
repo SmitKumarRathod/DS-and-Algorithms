@@ -3,7 +3,8 @@
 #include<stdlib.h>
 
 using namespace std;
-// For Iteration
+
+// Uncomment For Iteration Method
 /*
 int main() {
 	long long int a=0, b=1, c;
@@ -18,6 +19,7 @@ cout<<"\n\n TIME DIFFERENCE IS:- "<<(t2.tv_sec*1000000 + t2.tv_usec) - (t1.tv_se
 return 0;
 }
 */
+
 long long int fibo(int number) {
 	if (number == 0 || number ==1 ) {return number;}
 	else return fibo(number-1) + fibo(number-2); 
