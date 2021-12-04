@@ -43,7 +43,7 @@ int main () {
 	int a[n];
 	for (i=0;i<n; i++) 
 	a[i] = i;
-	beg=0, high=n;
+	low=0, high=n;
 	gettimeofday(&t1, NULL);	
 	quicksort(a,low,high);	
 	gettimeofday(&t2, NULL);
